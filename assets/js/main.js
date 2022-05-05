@@ -26,3 +26,8 @@ share.addEventListener('click', function(e) {
     e.preventDefault();
     location.replace(aframe.src);
 });
+
+gh.addEventListener('click', function(e) {
+    e.preventDefault();
+    location.replace("https://github.com/itsP33t/pixel-art-generator");
+});
